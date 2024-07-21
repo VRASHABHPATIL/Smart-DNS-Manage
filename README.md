@@ -8,9 +8,7 @@ Before you begin, ensure you have met the following requirements:
 - You are using an Ubuntu machine.
 - You have installed the following dependencies:
   - `apt-transport-https`
-  - `ca-certificates`
   - `curl`
-  - `software-properties-common`
   - `docker-ce`
 
 ## Installation
