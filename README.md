@@ -79,3 +79,7 @@ elif (( $(echo "$cache_hit_rate > 0.8" | bc -l) )); then
 else
     echo "Cache size optimal."
 fi
+```
+## Usage
+1. Run the DNS monitoring tool as shown above.
+2. Execute the memoryadjust.sh script to adjust the DNS cache size based on the cache hit rate.
