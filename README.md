@@ -78,7 +78,7 @@ elif (( $(echo "$cache_hit_rate > 0.8" | bc -l) )); then
     echo "Cache size increased."
 else
     echo "Cache size optimal."
-fi
+
 ```
 ## Usage
 1. Run the DNS monitoring tool as shown above.
